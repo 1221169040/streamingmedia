@@ -51,7 +51,7 @@ table {
 html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    max-width: 874px;
 }
 #intro {
     background-image: linear-gradient(to right, #2104D9 , black);
