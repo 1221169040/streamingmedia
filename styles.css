@@ -52,6 +52,8 @@ html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     max-width: 874px;
+    min-width: 374px;
+
 }
 #intro {
     background-image: linear-gradient(to right, #2104D9 , black);
@@ -63,9 +65,7 @@ body {
     max-width: 874px;
     background-color: #ffffff;
 }
-main {
-   display: flex;
-}
+
 nav {
     position: absolute;
     top: 0;
@@ -107,7 +107,7 @@ nav {
  .header .menu {
     clear: both;
     max-height: 0;
-    transition: max-height .2s ease-out;
+    transition: .2s ease-out;
   }
   
  
@@ -178,7 +178,7 @@ nav {
 /* HAMBURGER MENU */
 /* POSITIONING */
 dl {
-    display: flex;
+    display: grid;
 }
 dt {
     padding-right: 5px;
